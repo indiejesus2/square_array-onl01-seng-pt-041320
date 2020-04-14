@@ -1,5 +1,8 @@
 def square_array(numbers)
+  square = []
   numbers.each do |number|
-    print number ** 2
+    sum = (number ** 2)
+    square.push(sum)
+    puts square
   end
 end
