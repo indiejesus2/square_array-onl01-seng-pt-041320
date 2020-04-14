@@ -1,5 +1,7 @@
 def square_array(numbers)
-  numbers.each {|number| puts number**2}
+  square = []
+  numbers.each {|number|  square.push(number**2)}
+  return square
 end
 
 
