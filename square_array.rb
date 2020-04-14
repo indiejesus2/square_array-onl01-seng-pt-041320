@@ -3,6 +3,6 @@ def square_array(numbers)
   numbers.each do |number|
     sum = (number ** 2)
     square.push(sum)
-    puts square
   end
+  puts square
 end
