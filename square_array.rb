@@ -1,6 +1,6 @@
 def square_array(numbers)
   numbers.each do |number|
-    puts number * number
-    binding.pry
+    square = (number * number)
+    puts square
   end
 end
