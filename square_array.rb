@@ -4,3 +4,5 @@ def square_array(numbers)
     puts square
   end
 end
+
+square_array(numbers)
