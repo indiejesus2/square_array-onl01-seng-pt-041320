@@ -4,5 +4,5 @@ def square_array(numbers)
     sum = (number ** 2)
     square.push(sum)
   end
-  puts square
+  return square
 end
